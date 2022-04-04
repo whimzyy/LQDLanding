@@ -9,7 +9,7 @@ const Home = () => {
 					<p className="Navbar-text">LIQUID.FINANCIAL</p>
 				</div>
 				<div>
-					<button className="btn btn-primary Navbar-button">Launch App</button>
+					<button className="btn btn-primary Navbar-button">Test App</button>
 				</div>
 			</div>
 
