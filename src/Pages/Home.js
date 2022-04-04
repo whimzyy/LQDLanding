@@ -234,7 +234,7 @@ const Home = () => {
 							<span className="visually-hidden"></span>
 						</button>
 						<button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-							<span className="arrow-left" aria-hidden="true">
+							<span className="arrow-right" aria-hidden="true">
 								<i className="fa-solid fa-arrow-right"></i>
 							</span>
 							<span className="visually-hidden"></span>
@@ -274,7 +274,7 @@ const Home = () => {
 							<Link to="/">
 								<li>Links</li>
 							</Link>
-							<Link to="/">
+							<Link to="https://twitter.com/">
 								<li>Twitter</li>
 							</Link>
 							<Link to="/">
