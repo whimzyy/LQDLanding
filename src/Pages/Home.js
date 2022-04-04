@@ -163,12 +163,15 @@ const Home = () => {
 								<div className="cards card1">
 									<div className="row">
 										<div className="col-md-6 sym">
+											<a href="https://twitter.com/LiquidSwapDeFi">
 											<img src={require('../Images/p1.png')} alt="iconn1" />
+											</a>
 										</div>
 										<div className="col-md-6">
 											<h1>reimagined.fi</h1>
 											<p>$REFI is DeFi reimagined. Simply hold $REFI and receive yield farming profits back in ETH.</p>
 										</div>
+										
 									</div>
 								</div>
 							</div>
@@ -275,7 +278,7 @@ const Home = () => {
 							<Link to="/">
 								<li>Links</li>
 							</Link>
-							<a href="https://www.twitter.com">Twitter</a>
+							<a href="https://twitter.com/LiquidSwapDeFi">Twitter</a>
 							<br />
 							
 							<a href="https://medium.com/@LiquidSwapDeFi">Medium</a>
