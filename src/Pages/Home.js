@@ -31,7 +31,7 @@ const Home = () => {
 
 					<div className="Token-images">
 
-						<img className="img1" src={require('../Images/token1.png')} alt="tokenimg1" />
+					<iframe title= "Swap" scrolling="no" height="500" width="350" style={{width:"350px",height:"500px", border: "none", borderRadius: "19px", boxShadow: "rgba(0, 0, 0, 0.1) 3px 3px 10px 4px", display: "block", margin:"0"}} src="https://ethcustom.liquidswap.trade/swap?inputCurrency=ETH&outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44&bg=1f1d2b&slippage=50&card=212129&dark=dark" />
 						<img className="img2" src={require('../Images/token2.png')} alt="tokenimg2" />
 						<img className="glare" src={require('../Images/blue-flare.png')} alt="tokenimg2" />
 					</div>
