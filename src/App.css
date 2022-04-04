@@ -209,9 +209,10 @@
 	margin-top: 150px;
 	padding: 12px 24px;
 	width: 218px;
-	height: 60px;
+	height: 50px;
 	background: linear-gradient(103.91deg, #9b51e0 21.01%, rgba(48, 129, 237, 0.8) 100%);
 	border-radius: 16px;
+	
 }
 
 .launchbutton {

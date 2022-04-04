@@ -9,7 +9,7 @@ const Home = () => {
 					<p className="Navbar-text">LIQUID.FINANCIAL</p>
 				</div>
 				<div>
-					<button className="btn btn-primary Navbar-button">Launch App</button>
+					<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44" className="btn btn-primary Navbar-button">Launch App</a>
 				</div>
 			</div>
 
@@ -37,7 +37,7 @@ const Home = () => {
 					</div>
 
 					<div className="launchbutton">
-						<button className="btn btn-primary launchbtn2">Launch App</button>
+					<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44" className="btn btn-primary launchbtn2">Launch App</a>
 					</div>
 				</div>
 			</div>
