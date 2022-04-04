@@ -61,10 +61,11 @@ const Home = () => {
 						</div>
 						<div className="col-md-4 single">
 							<div>
-								<img src={require('../Images/3.png')} alt="3" />
+								<img src={require('../Images/4.png')} alt="4" />
 							</div>
-							<h2>LiquidCharts</h2>
-							<p>LiquidCharts gives traders the ability to easily analyze data for all new projects.</p>
+							<h2>LiquidPortfolio</h2>
+							<p>dashboard for tracking your complete DeFi portfolio in one place. wallet data such as current balances, transactions, historical data and more! 
+							</p>
 						</div>
 					</div>
 				</div>
@@ -73,30 +74,32 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-4 single liquidswap">
 							<div>
-								<img src={require('../Images/1.png')} alt="1" />
-							</div>
-							<h2>LiquidSwap</h2>
-							<p>LiquidSwap uses aggregated liquidity allowing traders to perform high speed transactions across multiple blockchains.</p>
-						</div>
-						<div className="col-md-4 single">
-							<div>
-								<img src={require('../Images/2.png')} alt="2" />
-							</div>
-							<h2>LiquidFrame</h2>
-							<p>an easy to use DEX configurator so any project can add the LiquidFrame DEX to their dashboard.</p>
-						</div>
-						<div className="col-md-4 single">
-							<div>
 								<img src={require('../Images/3.png')} alt="3" />
 							</div>
 							<h2>LiquidCharts</h2>
 							<p>LiquidCharts gives traders the ability to easily analyze data for all new projects.</p>
 						</div>
+						<div className="col-md-4 single">
+							<div>
+								<img src={require('../Images/5.png')} alt="5" />
+							</div>
+							<h2>LiquidStake</h2>
+							<p>$LQD and select tokens will be able to be earned by providing liquidity to pools on LiquidStake. 
+							</p>
+						</div>
+						<div className="col-md-4 single">
+							<div>
+								<img src={require('../Images/6.png')} alt="6" />
+							</div>
+							<h2>LiquidNFT</h2>
+							<p>Users will be able to create, buy, sell and check rarity of NFT’s across different networks. 
+							</p>
+						</div>
 					</div>
 				</div>
 
 				<div className="d-flex justify-content-center mt-4 ">
-					<button className="tool-button">Tools</button>
+				<a href="https://eth.liquidswap.trade/portfolio" className="tool-button">Tools</a>
 				</div>
 			</div>
 
