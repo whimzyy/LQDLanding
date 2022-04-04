@@ -30,6 +30,7 @@ const Home = () => {
 					</div>
 
 					<div className="Token-images">
+
 						<img className="img1" src={require('../Images/token1.png')} alt="tokenimg1" />
 						<img className="img2" src={require('../Images/token2.png')} alt="tokenimg2" />
 						<img className="glare" src={require('../Images/blue-flare.png')} alt="tokenimg2" />
@@ -252,18 +253,18 @@ const Home = () => {
 							<Link to="/">
 								<li>Pages</li>
 							</Link>
-							<Link to="/">
-								<li>Home</li>
-							</Link>
-							<Link to="/">
-								<li>Tools</li>
-							</Link>
-							<Link to="/">
-								<li>Documentation</li>
-							</Link>
-							<Link to="/">
-								<li>Contracts</li>
-							</Link>
+							
+							<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44">Home</a>
+							<br />
+
+							<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44">Tools</a>
+							<br />
+
+							<a href="https://docs.liquidswap.trade/">Docs</a>
+							<br />
+
+							<a href="https://etherscan.io/token/0x7Fe8dAC51394157811C71bBf74c133a224a9FF44">Contracts</a>
+							<br />
 						</ul>
 					</div>
 					<div className="col-md-4 logo">
@@ -274,18 +275,18 @@ const Home = () => {
 							<Link to="/">
 								<li>Links</li>
 							</Link>
-							<Link to="https://twitter.com/">
-								<li>Twitter</li>
-							</Link>
-							<Link to="/">
-								<li>Medium</li>
-							</Link>
-							<Link to="/">
-								<li>Telegram</li>
-							</Link>
-							<Link to="/">
-								<li>Discord</li>
-							</Link>
+							<a href="https://www.twitter.com">Twitter</a>
+							<br />
+							
+							<a href="https://medium.com/@LiquidSwapDeFi">Medium</a>
+							
+							<br />
+							
+							<a href="https://t.me/LiquidSwapDeFi">Telegram</a>
+							
+							<br />
+							
+							<a href="https://medium.com/@LiquidSwapDeFi">Discord</a>
 						</ul>
 					</div>
 				</div>

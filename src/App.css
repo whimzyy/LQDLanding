@@ -769,22 +769,22 @@
 
 .footer {
 	color: white;
-	text-align: left;
+	text-align: center;
 }
-.footer .links li {
+.footer .links li a {
 	margin-left: 50px !important;
 }
 .footer .row {
-	padding: 50px 0px;
+	padding: 0px 0px;
 }
 .footer a {
 	text-decoration: none;
 }
-.footer .second-links li {
+.footer .second-links li a {
 	margin-left: 200px;
 }
 
-.footer ul li {
+.footer ul a {
 	list-style: none;
 	font-family: 'footer-font';
 	font-size: 25px;
@@ -793,7 +793,7 @@
 
 	letter-spacing: 0em;
 }
-.footer ul li:hover {
+.footer ul a:hover {
 	list-style: none;
 	font-family: 'header-font';
 	color: #fff;
@@ -803,7 +803,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1350px) {
-	.footer .second-links li {
+	.footer .second-links li a {
 		margin-left: 80px;
 	}
 }
@@ -815,17 +815,17 @@
 		padding: 20px 0px;
 		font-size: 25px !important;
 	}
-	.footer ul li {
+	.footer ul a {
 		font-size: 25px !important;
 	}
-	.footer .second-links li {
+	.footer .second-links li a {
 		margin-left: 0px;
 	}
 	.footer img {
 		width: 80px;
 		margin-left: 30px !important;
 	}
-	.footer .links li {
+	.footer .links li a {
 		margin-left: 0px !important;
 	}
 }
