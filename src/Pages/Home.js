@@ -9,7 +9,7 @@ const Home = () => {
 					<p className="Navbar-text">LIQUID.FINANCIAL</p>
 				</div>
 				<div>
-					<button className="btn btn-primary Navbar-button">Test App</button>
+					<button className="btn btn-primary Navbar-button">Launch App</button>
 				</div>
 			</div>
 
@@ -20,11 +20,12 @@ const Home = () => {
 				</div>
 				<div className="Front-images">
 					<div className="front-para">
+					text-align:center;
 						<p>
 							{' '}
-							There are so many moving pieces and new additions to the DeFi and Crypto <br />
-							spaces everyday. The Liquid.Financial suite of DeFi tools will help you stay <br />
-							ahead of the trend and grow your portfolio.
+							There are so many moving pieces and new additions to the DeFi <br />
+							and Crypto spaces everyday. The Liquid.Financial suite of DeFi tools <br /> 
+							will help you stay ahead of the trend and grow your portfolio.
 						</p>
 					</div>
 
@@ -48,21 +49,21 @@ const Home = () => {
 								<img src={require('../Images/1.png')} alt="1" />
 							</div>
 							<h2>LiquidSwap</h2>
-							<p>Using aggregated liquidity traders can perform fast paced swaps across multiple blockchains</p>
+							<p>LiquidSwap uses aggregated liquidity allowing traders to perform high speed transactions across multiple blockchains.</p>
 						</div>
 						<div className="col-md-4 single">
 							<div>
 								<img src={require('../Images/2.png')} alt="2" />
 							</div>
 							<h2>LiquidFrame</h2>
-							<p>an easy to use DEX configurator so any project can add the LiquidFrame DEX to their dashboard.</p>
+							<p>An easy to use DEX configurator so any project can add the LiquidFrame DEX to their dashboard.</p>
 						</div>
 						<div className="col-md-4 single">
 							<div>
 								<img src={require('../Images/3.png')} alt="3" />
 							</div>
 							<h2>LiquidCharts</h2>
-							<p>Using aggregated liquidity traders can perform fast paced swaps across multiple blockchains</p>
+							<p>LiquidCharts gives traders the ability to easily analyze data for all new projects.</p>
 						</div>
 					</div>
 				</div>
@@ -74,7 +75,7 @@ const Home = () => {
 								<img src={require('../Images/1.png')} alt="1" />
 							</div>
 							<h2>LiquidSwap</h2>
-							<p>Using aggregated liquidity traders can perform fast paced swaps across multiple blockchains</p>
+							<p>LiquidSwap uses aggregated liquidity allowing traders to perform high speed transactions across multiple blockchains.</p>
 						</div>
 						<div className="col-md-4 single">
 							<div>
@@ -88,7 +89,7 @@ const Home = () => {
 								<img src={require('../Images/3.png')} alt="3" />
 							</div>
 							<h2>LiquidCharts</h2>
-							<p>Using aggregated liquidity traders can perform fast paced swaps across multiple blockchains</p>
+							<p>LiquidCharts gives traders the ability to easily analyze data for all new projects.</p>
 						</div>
 					</div>
 				</div>
@@ -133,7 +134,7 @@ const Home = () => {
 					</div>
 					<div className="roadmap left">
 						<i className="icon"></i>
-						<div className="content">Liquidportfolio Update</div>
+						<div className="content">LiquidPortfolio Update</div>
 					</div>
 					<div className="roadmap right">
 						<i className="icon"></i>
@@ -190,7 +191,7 @@ const Home = () => {
 											<img src={require('../Images/p3.png')} alt="iconn1" />
 										</div>
 										<div className="col-md-6">
-											<h1>MidadDao</h1>
+											<h1>MidasDao</h1>
 											<p>
 												Automated treasury growth protocol with a steady flow of revenues from Yield farming, Metaverse and P2E that rewards
 												$CROWN investors and $THRONE node holders.
@@ -220,7 +221,7 @@ const Home = () => {
 										</div>
 										<div className="col-md-6">
 											<h1>Cross Chain Farming</h1>
-											<p>$CCF :: First Farming As a Service on Binance Smart Chain</p>
+											<p>CCF - The first Farming as a Service protocol on the Binance Smart Chain.</p>
 										</div>
 									</div>
 								</div>
@@ -233,7 +234,7 @@ const Home = () => {
 							<span className="visually-hidden"></span>
 						</button>
 						<button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-							<span className="arrow-right" aria-hidden="true">
+							<span className="arrow-left" aria-hidden="true">
 								<i className="fa-solid fa-arrow-right"></i>
 							</span>
 							<span className="visually-hidden"></span>
@@ -274,7 +275,7 @@ const Home = () => {
 								<li>Links</li>
 							</Link>
 							<Link to="/">
-								<li>twitter</li>
+								<li>Twitter</li>
 							</Link>
 							<Link to="/">
 								<li>Medium</li>
