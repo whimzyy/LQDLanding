@@ -163,7 +163,7 @@ const Home = () => {
 								<div className="cards card1">
 									<div className="row">
 										<div className="col-md-6 sym">
-											<a href="https://twitter.com/LiquidSwapDeFi">
+											<a href="https://www.reimagined.fi/">
 											<img src={require('../Images/p1.png')} alt="iconn1" />
 											</a>
 										</div>
@@ -179,7 +179,9 @@ const Home = () => {
 								<div className="cards card2">
 									<div className="row">
 										<div className="col-md-6 sym">
+										<a href="https://www.exponentialcapital.finance/">
 											<img src={require('../Images/p2.png')} alt="iconn1" />
+											</a>
 										</div>
 										<div className="col-md-6">
 											<h1>Exponential Capital</h1>
@@ -192,7 +194,9 @@ const Home = () => {
 								<div className="cards card3">
 									<div className="row">
 										<div className="col-md-6 sym">
+										<a href="https://midasdao.org/">
 											<img src={require('../Images/p3.png')} alt="iconn1" />
+											</a>
 										</div>
 										<div className="col-md-6">
 											<h1>MidasDao</h1>
@@ -208,7 +212,9 @@ const Home = () => {
 								<div className="cards card4">
 									<div className="row">
 										<div className="col-md-6 sym">
+										<a href="https://d3protocol.io/">
 											<img src={require('../Images/p4.png')} alt="iconn1" />
+											</a>
 										</div>
 										<div className="col-md-6">
 											<h1>D3Protocol</h1>
@@ -221,7 +227,9 @@ const Home = () => {
 								<div className="cards card5">
 									<div className="row">
 										<div className="col-md-6 sym">
+										<a href="https://ccfdao.com/">
 											<img src={require('../Images/p5.png')} alt="iconn1" />
+											</a>
 										</div>
 										<div className="col-md-6">
 											<h1>Cross Chain Farming</h1>
@@ -238,7 +246,7 @@ const Home = () => {
 							<span className="visually-hidden"></span>
 						</button>
 						<button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-							<span className="arrow-right" aria-hidden="true">
+							<span className="arrow-left" aria-hidden="true">
 								<i className="fa-solid fa-arrow-right"></i>
 							</span>
 							<span className="visually-hidden"></span>
