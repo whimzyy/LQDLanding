@@ -74,7 +74,7 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-4 single liquidswap">
 							<div>
-								<img src={require('../Images/candle.png')} alt="3" />
+								<img src={require('../Images/Candle.png')} alt="3" />
 							</div>
 							<h2>LiquidCharts</h2>
 							<p>LiquidCharts gives traders the ability to easily analyze data for all new projects.</p>
