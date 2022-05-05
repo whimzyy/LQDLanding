@@ -115,7 +115,7 @@ const Home = () => {
 								<img src={require('../Images/icon2.png')} alt="i2" />
 							</div>
 							<div className="col-lg-2">
-								<img src={require('../Images/avalanche.svg')} alt="i3" />
+								<img src={require('../Images/avalanche.png')} alt="i3" />
 							</div>
 							<div className="col-lg-2">
 								<img src={require('../Images/icon4.png')} alt="i4" />
