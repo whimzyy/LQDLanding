@@ -301,7 +301,7 @@
 	padding: 1rem;
 	margin-bottom: 150px;
 	font-size: 26px;
-	font-family: 'logo-font';
+	font-family: 'footer-font';
 	padding: 0.5rem 7rem;
 	color: white;
 	box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
@@ -345,7 +345,7 @@
 
 #blockchain h1 {
 	text-align: center;
-	font-family: 'Abel';
+	font-family: 'footer-font';
 	letter-spacing: 5px;
 	font-weight: bold;
 	padding: 20px 0px;
@@ -379,7 +379,7 @@
 
 #roadmap {
 	color: white;
-	font-family: 'abel';
+	font-family: 'footer-font';
 	margin-top: 100px;
 	padding: 50px 0px;
 	text-align: center;
@@ -494,7 +494,7 @@
 
 .roadmap .content {
 	font-size: 22px;
-	font-family: 'Abel';
+	font-family: 'footer-font';
 	padding: 25px 60px;
 	border-radius: 15px;
 	background: linear-gradient(#8a79ff, #5f19a6);
@@ -613,7 +613,7 @@
 	color: white;
 	text-align: center;
 	margin-top: -50px;
-	font-family: 'Abel';
+	font-family: 'footer-font';
 	font-size: 49px;
 }
 
@@ -632,7 +632,7 @@
 	color: white;
 	margin-top: 50px;
 	font-size: 50px;
-	font-family: 'Abel';
+	font-family: 'footer-font';
 }
 
 .partners .cards p {
@@ -640,7 +640,7 @@
 	padding: 0px 40px 0px 0px !important;
 	margin-top: 70px;
 	font-size: 25px !important;
-	font-family: 'Abel';
+	font-family: 'footer-font';
 }
 
 .partners .row {
@@ -799,7 +799,7 @@
 }
 .footer ul a:hover {
 	list-style: none;
-	font-family: 'header-font';
+	font-family: 'footer-font';
 	color: #fff;
 }
 .footer .logo {
