@@ -47,14 +47,14 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-4 single">
 							<div>
-								<img src={require('../Images/1.png')} alt="1" />
+								<img src={require('../Images/swap.png')} alt="1" />
 							</div>
 							<h2>LiquidSwap</h2>
 							<p>LiquidSwap uses aggregated liquidity allowing traders to perform high speed transactions across multiple blockchains.</p>
 						</div>
 						<div className="col-md-4 single">
 							<div>
-								<img src={require('../Images/2.png')} alt="2" />
+								<img src={require('../Images/frame.png')} alt="2" />
 							</div>
 							<h2>LiquidFrame</h2>
 							<p>An easy to use DEX configurator so any project can add the LiquidFrame DEX to their dashboard.</p>
@@ -81,7 +81,7 @@ const Home = () => {
 						</div>
 						<div className="col-md-4 single">
 							<div>
-								<img src={require('../Images/5.png')} alt="5" />
+								<img src={require('../Images/stake.png')} alt="5" />
 							</div>
 							<h2>LiquidStake</h2>
 							<p>$LQD and select tokens will be able to be earned by providing liquidity to pools on LiquidStake. 
