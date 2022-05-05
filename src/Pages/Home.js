@@ -109,19 +109,19 @@ const Home = () => {
 					<div className="container">
 						<div className="row myicons">
 							<div className="col-lg-2">
-								<img src={require('../Images/icon1.png')} alt="i1" />
+								<img src={require('../Images/eth.png')} alt="i1" />
 							</div>
 							<div className="col-lg-2 ">
-								<img src={require('../Images/icon2.png')} alt="i2" />
+								<img src={require('../Images/bsc.png')} alt="i2" />
 							</div>
 							<div className="col-lg-2">
 								<img src={require('../Images/avalanche.png')} alt="i3" />
 							</div>
 							<div className="col-lg-2">
-								<img src={require('../Images/icon4.png')} alt="i4" />
+								<img src={require('../Images/polygon.png')} alt="i4" />
 							</div>
 							<div className="col-lg-2">
-								<img src={require('../Images/icon5.png')} alt="i5" />
+								<img src={require('../Images/ftm.png')} alt="i5" />
 							</div>
 						</div>
 					</div>
