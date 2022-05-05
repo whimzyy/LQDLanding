@@ -31,7 +31,7 @@
 	left: 60px;
 	top: 50px;
 	padding: 3px 3px;
-	font-family: 'logo-font';
+	font-family: 'footer-font';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 31px;
@@ -145,7 +145,7 @@
 	margin-top: 100px;
 	height: 90px;
 
-	font-family: 'header-font';
+	font-family: 'footer-font';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 60px;
@@ -154,7 +154,7 @@
 }
 
 .Site-header h2 {
-	font-family: 'header-font';
+	font-family: 'footer-font';
 	font-style: normal;
 	font-weight: 700;
 	margin: 0 auto !important;
@@ -169,7 +169,7 @@
 }
 
 .Front-images p {
-	font-family: 'Abel', sans-serif;
+	font-family: 'footer-font';
 	text-align: left;
 	font-size: 24px;
 	line-height: 31px;
@@ -247,14 +247,14 @@
 .blocks h2 {
 	margin-top: 20px;
 	text-align: center;
-	font-family: 'logo-font';
+	font-family: 'footer-font';
 }
 
 .blocks p {
 	color: #8e8c93;
 	font-size: 20px;
 	letter-spacing: 1px;
-	font-family: 'front-para';
+	font-family: 'footer-font';
 }
 
 @media screen and (max-width: 1405px) {
