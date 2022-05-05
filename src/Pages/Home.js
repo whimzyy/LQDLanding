@@ -61,7 +61,7 @@ const Home = () => {
 						</div>
 						<div className="col-md-4 single">
 							<div>
-								<img src={require('../Images/4.png')} alt="4" />
+								<img src={require('../Images/port.png')} alt="4" />
 							</div>
 							<h2>LiquidPortfolio</h2>
 							<p>dashboard for tracking your complete DeFi portfolio in one place. wallet data such as current balances, transactions, historical data and more! 
