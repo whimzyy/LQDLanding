@@ -109,105 +109,51 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div id="Partners" section="PARTNER">
-				<div className="partners">
-					<h2 className="heading">Liquid Partners</h2>
-
-					<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-						<div className="carousel-inner">
-							<div className="carousel-item active" data-bs-interval="4000">
-								<div className="cards card1">
-									<div className="row">
-										<div className="col-md-6 sym">
-											<a href="https://www.reimagined.fi/">
-											<img src={require('../Images/p1.png')} alt="iconn1" />
-											</a>
-										</div>
-										<div className="col-md-6">
-											<h1>reimagined.fi</h1>
-											<p>$REFI is DeFi reimagined. Simply hold $REFI and receive yield farming profits back in ETH.</p>
-										</div>
-										
-									</div>
-								</div>
+			<div id="Blocks" section="Blocks">
+				<div className="blocks container d-flex justify-content-center">
+					<div className="row">
+						<div className="col-md-15 single">
+							<div>
+							<h2>LiquidStake</h2>
 							</div>
-							<div className="carousel-item" data-bs-interval="4000">
-								<div className="cards card2">
-									<div className="row">
-										<div className="col-md-6 sym">
-										<a href="https://www.exponentialcapital.finance/">
-											<img src={require('../Images/p2.png')} alt="iconn1" />
-											</a>
-										</div>
-										<div className="col-md-6">
-											<h1>Exponential Capital</h1>
-											<p> $EXPO is a farm-trade-seed-as-a-service run by the community for the community. </p>
-										</div>
-									</div>
-								</div>
+							<div>
+							<p>$LQD and select tokens will be able to be earned by providing liquidity to pools on LiquidStake. Aggregated liquidity pools from all of DeFi. </p>
 							</div>
-							<div className="carousel-item" data-bs-interval="4000">
-								<div className="cards card3">
-									<div className="row">
-										<div className="col-md-6 sym">
-										<a href="https://midasdao.org/">
-											<img src={require('../Images/p3.png')} alt="iconn1" />
-											</a>
-										</div>
-										<div className="col-md-6">
-											<h1>MidasDao</h1>
-											<p>
-												Automated treasury growth protocol with a steady flow of revenues from Yield farming, Metaverse and P2E that rewards
-												$CROWN investors and $THRONE node holders.
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="carousel-item " data-bs-interval="4000">
-								<div className="cards card4">
-									<div className="row">
-										<div className="col-md-6 sym">
-										<a href="https://d3protocol.io/">
-											<img src={require('../Images/p4.png')} alt="iconn1" />
-											</a>
-										</div>
-										<div className="col-md-6">
-											<h1>D3Protocol</h1>
-											<p>$DeFi 3.0 Staking-as-a-Service and index. Stake. Mint. Earn.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="carousel-item" data-bs-interval="4000">
-								<div className="cards card5">
-									<div className="row">
-										<div className="col-md-6 sym">
-										<a href="https://ccfdao.com/">
-											<img src={require('../Images/p5.png')} alt="iconn1" />
-											</a>
-										</div>
-										<div className="col-md-6">
-											<h1>Cross Chain Farming</h1>
-											<p>CCF - The first Farming as a Service protocol on the Binance Smart Chain.</p>
-										</div>
-									</div>
-								</div>
-							</div>
+							<img src={require('../Images/LiquidStake.png')} alt="1" />
 						</div>
-						<button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-							<span className="arrow-left" aria-hidden="true">
-								<i className="fa-solid fa-arrow-left"></i>
-							</span>
-							<span className="visually-hidden"></span>
-						</button>
-						<button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-							<span className="arrow-left" aria-hidden="true">
-								<i className="fa-solid fa-arrow-right"></i>
-							</span>
-							<span className="visually-hidden"></span>
-						</button>
 					</div>
+				</div>
+
+				<div className="blocks container d-flex justify-content-center">
+					<div className="row">
+						<div className="col-md-15 single">
+							<div>
+							<h2>LiquidCheck</h2>
+							</div>
+							<div>
+							<p>Verify that the token you are wanting to purchase does not have anything  suspicious in the token smart contract.</p>
+							</div>
+							<img src={require('../Images/LiquidCheck.png')} alt="1" />
+						</div>
+					</div>
+				</div>
+
+				<div className="blocks container d-flex justify-content-center">
+					<div className="row">
+						<div className="col-md-15 single">
+							<div>
+							<h2>LiquidFrame</h2>
+							</div>
+							<div>
+							<p>An easy to use DEX configurator with auto-generated code so any project can add the LiquidFrame DEX to their dashboard.  </p>
+							</div>
+							<img src={require('../Images/clock 1.png')} alt="1" />
+						</div>
+					</div>
+				</div>
+
+				<div className="d-flex justify-content-center mt-4 ">
+				<a href="https://eth.liquidswap.trade/portfolio" className="tool-button">Tools</a>
 				</div>
 			</div>
 
