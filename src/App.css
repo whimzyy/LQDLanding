@@ -24,6 +24,7 @@
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+	margin-bottom: -125px;
 }
 
 .Navbar-text {
@@ -40,7 +41,6 @@
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 
-	/* Linear Purple Blue Style */
 
 	background: linear-gradient(93.51deg, #1DB4EC 2.84%, #ECC765 99.18%);
 	-webkit-background-clip: text;
@@ -188,16 +188,16 @@
 
 .Front-images {
 	min-height: 132vh;
-	background-image: url('./Images/chart.png');
+	background-image: url('./Images/v2logo\ 1.png');
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: center;
+	padding-top: 200px;
 }
 
 .Token-images {
 	display: flex;
 	justify-content: space-between;
-	padding: 0px 80px;
-	margin-top: 170px;
+	padding: 235px 80px;
 }
 
 .Token-images .glare {
@@ -208,8 +208,8 @@
 }
 
 .launchbtn2 {
-	margin-top: 75px;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
+	margin-top: 20px;
 	padding: 12px 24px;
 	width: 218px;
 	height: 50px;

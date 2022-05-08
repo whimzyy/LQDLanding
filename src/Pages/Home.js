@@ -15,10 +15,10 @@ const Home = () => {
 
 			<div className="Site-header">
 				<div className="Site-header-text">
+				<div className="Front-images">
 					<h1>All in one DeFi Platform</h1>
 					<h2>Changing Decentralized Finance</h2>
-				</div>
-				<div className="Front-images">
+				
 					<div className="front-para">
 				
 						<p>
@@ -28,16 +28,10 @@ const Home = () => {
 							will help you stay ahead of the trend and grow your portfolio.
 						</p>
 					</div>
-
-					<div className="Token-images">
-
-					<iframe title= "Swap" scrolling="no" height="500" width="350" style={{width:"350px",height:"500px", border: "none", borderRadius: "19px", boxShadow: "rgba(0, 0, 0, 0.1) 3px 3px 10px 4px", display: "block", margin:"100"}} src="https://ethcustom.liquidswap.trade/swap?inputCurrency=ETH&outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44&bg=1f1d2b&slippage=50&card=212129&dark=dark" />
-						<img className="img2" src={require('../Images/token2.png')} alt="tokenimg2" />
-						<img className="glare" src={require('../Images/NewBack.png')} alt="tokenimg2" />
-					</div>
-
+					<div align="center"> <iframe title= "Swap" scrolling="no" height="500" width="350" style={{width:"350px",height:"500px", border: "none", borderRadius: "19px", boxShadow: "rgba(0, 0, 0, 0.1) 3px 3px 10px 4px", display: "block", margin:"100"}} src="https://ethcustom.liquidswap.trade/swap?inputCurrency=ETH&outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44&bg=1f1d2b&slippage=50&card=212129&dark=dark" /> </div>
 					<div className="launchbutton">
 					<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44" className="btn btn-primary launchbtn2">Launch App</a>
+					</div>
 					</div>
 				</div>
 			</div>
