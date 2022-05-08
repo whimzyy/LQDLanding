@@ -6,7 +6,7 @@ const Home = () => {
 		<div>
 			<div className="Top-navbar">
 				<div>
-					<p className="Navbar-text">LIQUID.FINANCIAL</p>
+					<p className="Navbar-text">LIQUID</p>
 				</div>
 				<div>
 					<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44" className="btn btn-primary Navbar-button">Launch App</a>
@@ -20,7 +20,7 @@ const Home = () => {
 				</div>
 				<div className="Front-images">
 					<div className="front-para">
-					text-align:center;
+				
 						<p>
 							{' '}
 							There are so many moving pieces and new additions to the DeFi <br />
@@ -31,9 +31,9 @@ const Home = () => {
 
 					<div className="Token-images">
 
-					<iframe title= "Swap" scrolling="no" height="500" width="350" style={{width:"350px",height:"500px", border: "none", borderRadius: "19px", boxShadow: "rgba(0, 0, 0, 0.1) 3px 3px 10px 4px", display: "block", margin:"0"}} src="https://ethcustom.liquidswap.trade/swap?inputCurrency=ETH&outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44&bg=1f1d2b&slippage=50&card=212129&dark=dark" />
+					<iframe title= "Swap" scrolling="no" height="500" width="350" style={{width:"350px",height:"500px", border: "none", borderRadius: "19px", boxShadow: "rgba(0, 0, 0, 0.1) 3px 3px 10px 4px", display: "block", margin:"100"}} src="https://ethcustom.liquidswap.trade/swap?inputCurrency=ETH&outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44&bg=1f1d2b&slippage=50&card=212129&dark=dark" />
 						<img className="img2" src={require('../Images/token2.png')} alt="tokenimg2" />
-						<img className="glare" src={require('../Images/blue-flare.png')} alt="tokenimg2" />
+						<img className="glare" src={require('../Images/NewBack.png')} alt="tokenimg2" />
 					</div>
 
 					<div className="launchbutton">
@@ -45,55 +45,42 @@ const Home = () => {
 			<div id="Blocks" section="Blocks">
 				<div className="blocks container d-flex justify-content-center">
 					<div className="row">
-						<div className="col-md-4 single">
+						<div className="col-md-15 single">
 							<div>
-								<img src={require('../Images/swap.png')} alt="1" />
-							</div>
 							<h2>LiquidSwap</h2>
+							</div>
+							<div>
 							<p>LiquidSwap uses aggregated liquidity allowing traders to perform high speed transactions across multiple blockchains.</p>
-						</div>
-						<div className="col-md-4 single">
-							<div>
-								<img src={require('../Images/frame.png')} alt="2" />
 							</div>
-							<h2>LiquidFrame</h2>
-							<p>An easy to use DEX configurator so any project can add the LiquidFrame DEX to their dashboard.</p>
-						</div>
-						<div className="col-md-4 single">
-							<div>
-								<img src={require('../Images/port.png')} alt="4" />
-							</div>
-							<h2>LiquidPortfolio</h2>
-							<p>dashboard for tracking your complete DeFi portfolio in one place. wallet data such as current balances, transactions, historical data and more! 
-							</p>
+							<img src={require('../Images/data.png')} alt="1" />
 						</div>
 					</div>
 				</div>
 
-				<div className="blocks container d-flex justify-content-center  ">
+				<div className="blocks container d-flex justify-content-center">
 					<div className="row">
-						<div className="col-md-4 single liquidswap">
+						<div className="col-md-15 single">
 							<div>
-								<img src={require('../Images/Candle.png')} alt="3" />
-							</div>
 							<h2>LiquidCharts</h2>
-							<p>LiquidCharts gives traders the ability to easily analyze data for all new projects.</p>
-						</div>
-						<div className="col-md-4 single">
-							<div>
-								<img src={require('../Images/stake.png')} alt="5" />
 							</div>
-							<h2>LiquidStake</h2>
-							<p>$LQD and select tokens will be able to be earned by providing liquidity to pools on LiquidStake. 
-							</p>
-						</div>
-						<div className="col-md-4 single">
 							<div>
-								<img src={require('../Images/6.png')} alt="6" />
+							<p>An intuitive charting and token data system so DeFi traders can stay up to date on market trends. LiquidSwap integrated on each chart.</p>
 							</div>
-							<h2>LiquidNFT</h2>
-							<p>Users will be able to create, buy, sell and check rarity of NFT’s across different networks. 
-							</p>
+							<img src={require('../Images/stats.png')} alt="1" />
+						</div>
+					</div>
+				</div>
+
+				<div className="blocks container d-flex justify-content-center">
+					<div className="row">
+						<div className="col-md-15 single">
+							<div>
+							<h2>LiquidPortfolio</h2>
+							</div>
+							<div>
+							<p>Track your complete DeFi portfolio in one place. wallet data such as current balances, transactions, historical data and more!</p>
+							</div>
+							<img src={require('../Images/wallet.png')} alt="1" />
 						</div>
 					</div>
 				</div>
@@ -128,37 +115,9 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div id="roadmap" section="roadmap">
-				<h1>Q2 2022 Roadmap</h1>
-
-				<div className="timeline">
-					<div className="roadmap right">
-						<i className="icon"></i>
-						<div className="content">Liquid.Financial Launch</div>
-					</div>
-					<div className="roadmap left">
-						<i className="icon"></i>
-						<div className="content">LiquidPortfolio Update</div>
-					</div>
-					<div className="roadmap right">
-						<i className="icon"></i>
-						<div className="content">LiquidCharts Launch</div>
-					</div>
-
-					<div className="roadmap left">
-						<i className="icon"></i>
-						<div className="content">$LQD Holder Rewards</div>
-					</div>
-					<div className="roadmap right">
-						<i className="icon"></i>
-						<div className="content">Additional Tools</div>
-					</div>
-				</div>
-			</div>
-
 			<div id="Partners" section="PARTNER">
 				<div className="partners">
-					<h2 className="heading">Liquid.Financial Partners</h2>
+					<h2 className="heading">Liquid Partners</h2>
 
 					<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
 						<div className="carousel-inner">
@@ -262,47 +221,34 @@ const Home = () => {
 				<hr />
 
 				<div className="row">
-					<div className="col-md-4 links">
+					<div className="col-md-3 links">
 						<ul>
 							<Link to="/">
-								<li>Pages</li>
+								<li>Twitter</li>
 							</Link>
-							
-							<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44">Home</a>
-							<br />
-
-							<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44">Tools</a>
-							<br />
-
-							<a href="https://docs.liquidswap.trade/">Docs</a>
-							<br />
-
-							<a href="https://etherscan.io/token/0x7Fe8dAC51394157811C71bBf74c133a224a9FF44">Contracts</a>
-							<br />
 						</ul>
-					</div>
-					<div className="col-md-4 logo">
-						<img src={require('../Images/footer-logo.png')} alt="footerimg" />
-					</div>
-					<div className="col-md-4 second-links">
+					</div> 
+					<div className="col-md-3 second-links">
 						<ul>
 							<Link to="/">
-								<li>Links</li>
+								<li>Documentation</li>
 							</Link>
-							<a href="https://twitter.com/LiquidSwapDeFi">Twitter</a>
-							<br />
-							
-							<a href="https://medium.com/@LiquidSwapDeFi">Medium</a>
-							
-							<br />
-							
-							<a href="https://t.me/LiquidSwapDeFi">Telegram</a>
-							
-							<br />
-							
-							<a href="https://medium.com/@LiquidSwapDeFi">Discord</a>
 						</ul>
 					</div>
+					<div className="col-md-3 links">
+						<ul>
+							<Link to="/">
+								<li>Medium</li>
+							</Link>
+						</ul>
+					</div> 
+					<div className="col-md-3 links">
+						<ul>
+							<Link to="/">
+								<li>Telegram</li>
+							</Link>
+						</ul>
+					</div>  
 				</div>
 			</div>
 		</div>
