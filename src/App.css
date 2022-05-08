@@ -369,6 +369,10 @@ mark.grad {
 	letter-spacing: 5px;
 	font-weight: bold;
 	padding: 20px 0px;
+	background: linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
 }
 
 .border-gradient {
