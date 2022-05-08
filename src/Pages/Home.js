@@ -39,7 +39,7 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-15 single">
 							<div>
-							<h2>LiquidSwap</h2>
+							<h2><mark className='grad'>LiquidSwap</mark></h2>
 							</div>
 							<div>
 							<p>LiquidSwap uses aggregated liquidity allowing traders to perform high speed transactions across multiple blockchains.</p>
@@ -53,7 +53,7 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-15 single">
 							<div>
-							<h2>LiquidCharts</h2>
+							<h2><mark className='grad'>LiquidCharts</mark></h2>
 							</div>
 							<div>
 							<p>An intuitive charting and token data system so DeFi traders can stay up to date on market trends. LiquidSwap integrated on each chart.</p>
@@ -67,7 +67,7 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-15 single">
 							<div>
-							<h2>LiquidPortfolio</h2>
+							<h2><mark className='grad'>LiquidPortfolio</mark></h2>
 							</div>
 							<div>
 							<p>Track your complete DeFi portfolio in one place. wallet data such as current balances, transactions, historical data and more!</p>
@@ -112,7 +112,7 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-15 single">
 							<div>
-							<h2>LiquidStake</h2>
+							<h2><mark className='grad'>LiquidStake</mark></h2>
 							</div>
 							<div>
 							<p>$LQD and select tokens will be able to be earned by providing liquidity to pools on LiquidStake. Aggregated liquidity pools from all of DeFi. </p>
@@ -126,7 +126,7 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-15 single">
 							<div>
-							<h2>LiquidCheck</h2>
+							<h2><mark className='grad'>LiquidCheck</mark></h2>
 							</div>
 							<div>
 							<p>Verify that the token you are wanting to purchase does not have anything  suspicious in the token smart contract.</p>
@@ -140,7 +140,7 @@ const Home = () => {
 					<div className="row">
 						<div className="col-md-15 single">
 							<div>
-							<h2>LiquidFrame</h2>
+							<h2><mark className='grad'>LiquidFrame</mark></h2>
 							</div>
 							<div>
 							<p>An easy to use DEX configurator with auto-generated code so any project can add the LiquidFrame DEX to their dashboard.  </p>
