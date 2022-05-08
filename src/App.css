@@ -99,6 +99,7 @@
 		padding: 30px 30px !important;
 		text-align: center !important;
 		margin-top: 0px !important;
+		
 	}
 
 	.Navbar-text {
@@ -183,6 +184,12 @@
 	display: flex;
 	justify-content: center;
 }
+mark.grad {
+	background: linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+}	
 
 /*------------------------------------FRONT IMAGES ------------------------------------------------*/
 

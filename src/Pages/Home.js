@@ -20,11 +20,9 @@ const Home = () => {
 					<h2>Changing Decentralized Finance</h2>
 				
 					<div className="front-para">
-				
 						<p>
-							{' '}
-							There are so many moving pieces and new additions to the DeFi <br />
-							and Crypto spaces everyday. The Liquid.Financial suite of DeFi tools <br /> 
+							There are so many moving pieces and new additions to the DeFi<br /> 
+							and Crypto spaces everyday. The <mark className='grad'>LIQUID</mark> suite of DeFi tools <br /> 
 							will help you stay ahead of the trend and grow your portfolio.
 						</p>
 					</div>
