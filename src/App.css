@@ -55,6 +55,8 @@
 	align-items: center;
 	padding: 12px 24px;
 	border: 1px linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
+	border-color: #51cbe8;
+	color: white;
 
 	width: 218px;
 	height: 60px;
@@ -62,8 +64,22 @@
 	right: 60px;
 	top: 35px;
 
-	background: linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
 	border-radius: 16px;
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	box-shadow: 2px 1000px 1px rgba(157, 96, 212, 0.5);
+	text-decoration: none;
+	box-shadow: 2px 1000px 1px #1f1d2b inset;
+
+	font-size: 18px;
+	text-align: center;
+
+}
+
+.Navbar-button:hover {
+	box-shadow: none;
+	color: white;
 }
 
 @media screen and (max-width: 947px) {
@@ -220,9 +236,24 @@ mark.grad {
 	padding: 12px 24px;
 	width: 218px;
 	height: 50px;
-	background: linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
 	border-radius: 16px;
+	border-color: #51cbe8;
 	border: 1px linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	color: white;
+	transition-duration: 0.4s;
+	box-shadow: 2px 1000px 1px rgba(157, 96, 212, 0.5);
+	text-decoration: none;
+	box-shadow: 2px 1000px 1px #1f1d2b inset;
+	font-size: 18px;
+	text-align: center;
+}
+
+.launchbtn2:hover {
+	box-shadow: none;
+	color: white;
 }
 
 .launchbutton {
@@ -316,7 +347,8 @@ mark.grad {
 
 .tool-button {
 	border-radius: 100rem;
-	padding: 1rem;
+	border-color: #51cbe8;
+	padding: .5rem 3rem;
 	margin-bottom: 150px;
 	font-size: 26px;
 	font-family: 'footer-font';
@@ -324,15 +356,17 @@ mark.grad {
 	color: white;
 	box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
 	border: solid 3px transparent;
-	background-image: linear-gradient(rgba(206, 22, 22, 0), rgba(216, 43, 43, 0)), linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%);
 	background-origin: border-box;
 	background-clip: content-box, border-box;
 	transition-duration: 0.4s;
-	box-shadow: 2px 1000px 1px linear-gradient(103.91deg, #1DB4EC 21.01%, #ECC765 100%) inset;
+	box-shadow: 2px 1000px 1px #1f1d2b inset;
+	text-decoration: none;
+	
 }
 
 .tool-button:hover {
-	box-shadow: linear-gradient(103.91deg, #ECC765 21.01%, #1DB4EC 100%,);
+	box-shadow: none;
 	color: white;
 }
 
@@ -784,6 +818,7 @@ mark.grad {
 
 .footer {
 	padding: 0px 0px;
+
 }
 
 .footer hr {
