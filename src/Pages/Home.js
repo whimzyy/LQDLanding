@@ -150,7 +150,7 @@ const Home = () => {
 				</div>
 
 				<div className="d-flex justify-content-center mt-4 ">
-				<a href="https://eth.liquidswap.trade/portfolio" className="tool-button">Tools</a>
+				<a href="https://eth.liquidswap.trade/portfolio" className="tool-button2">Tools</a>
 				</div>
 			</div>
 
