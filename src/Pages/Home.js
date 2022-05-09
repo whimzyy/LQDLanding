@@ -29,7 +29,7 @@ const Home = () => {
 					<div className="launchbutton">
 					<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44" className="btn btn-primary launchbtn2">Launch App</a>
 					</div>
-					<div align="center"> <iframe title= "Swap" scrolling="no" height="500" width="350" style={{width:"350px",height:"500px", border: "none", borderRadius: "19px", boxShadow: "rgba(0, 0, 0, 0.1) 3px 3px 10px 4px", marginBottom:"100px", marginTop:"-10px",  display: "block", margin:"100"}} src="https://ethcustom.liquidswap.trade/swap?inputCurrency=ETH&outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44&bg=1f1d2b&slippage=50&card=212129&dark=dark" /> </div>
+					<div align="center"> <iframe title= "Swap" scrolling="no" height="500" width="350" style={{width:"350px",height:"500px", border: "none", borderRadius: "19px", boxShadow: "rgba(0, 0, 0, 0.1) 3px 3px 10px 4px", marginBottom:"100px", marginTop:"-75px",  display: "block", margin:"100"}} src="https://ethcustom.liquidswap.trade/swap?inputCurrency=ETH&outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44&bg=1f1d2b&slippage=50&card=212129&dark=dark" /> </div>
 					</div>
 				</div>
 			</div>
@@ -161,30 +161,22 @@ const Home = () => {
 				<div className="row">
 					<div className="col-md-3 links">
 						<ul>
-							<Link to="https://twitter.com/LiquidSwapDeFi">
-								<li>Twitter</li>
-							</Link>
+							<a href="https://twitter.com/LiquidSwapDeFi" >Twitter</a>
 						</ul>
 					</div> 
 					<div className="col-md-3 second-links">
 						<ul>
-							<Link to="https://liquidswap.gitbook.io/liquid.financial">
-								<li>Documentation</li>
-							</Link>
+							<a href="https://liquidswap.gitbook.io/liquid.financial" >Documentation</a>
 						</ul>
 					</div>
 					<div className="col-md-3 links">
 						<ul>
-							<Link to="https://medium.com/@LiquidSwapDeFi">
-								<li>Medium</li>
-							</Link>
+							<a href="https://medium.com/@LiquidSwapDeFi" >Medium</a>
 						</ul>
 					</div> 
 					<div className="col-md-3 links">
 						<ul>
-							<Link to= "https://t.me/liquidswapdefi">
-								<li>Telegram</li>
-							</Link>
+							<a href="https://t.me/liquidswapdefi" >Telegram</a>
 						</ul>
 					</div>  
 				</div>
