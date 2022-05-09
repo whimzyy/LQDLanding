@@ -20,9 +20,10 @@ const Home = () => {
 				
 					<div className="front-para">
 						<p>
-							There are so many moving pieces and new additions to the DeFi<br /> 
-							and Crypto spaces everyday. The<mark className='grad'>LIQUID</mark>suite of DeFi tools <br /> 
-							will help you stay ahead of the trend and grow your portfolio.
+							The DeFi and Crypto space is continuously changing.<br /> 
+							With so many moving pieces and new additions.<br /> The<mark className='grad'>LIQUID</mark> 
+							Suite is here to help you stay ahead of the <br /> curve
+							all while managing your own personal portfolio.
 						</p>
 					</div>
 					<div className="launchbutton">
