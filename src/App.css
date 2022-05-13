@@ -27,6 +27,14 @@
 	margin-bottom: -125px;
 }
 
+.logo-image{
+    width: 350px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 35px;
+}
+
 .Navbar-text {
 	position: relative;
 	left: 60px;

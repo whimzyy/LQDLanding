@@ -4,8 +4,8 @@ const Home = () => {
 	return (
 		<div>
 			<div className="Top-navbar">
-				<div>
-					<p className="Navbar-text">LIQUID</p>
+				<div class="logo-image">
+					<img src={require('../Images/Logov2.png')} alt="1" />
 				</div>
 				<div>
 					<a href="https://eth.liquidswap.trade/swap?outputCurrency=0x7fe8dac51394157811c71bbf74c133a224a9ff44" className="btn btn-primary Navbar-button">Launch App</a>
